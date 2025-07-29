@@ -6,6 +6,12 @@
 const names = require('./modules/names.js')
 const hobbies = require('./modules/hobbies.js')
 
+const getInfos = () =>{
+    return{
+        namesInfo: names("ciccio", "pasticcio"),
+        hobbiesInfo: hobbies ("calcio", "tennis", "golf")
+    }
+}
 
-// console.log(names)
-// console.log(hobbies)
+
+console.log(getInfos())
