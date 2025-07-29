@@ -6,3 +6,6 @@ const hobbies = (hobbyOne, hobbyTwo, hobbyThree) =>{
     return [hobbyOne, hobbyTwo, hobbyThree]
 }
 
+hobbies("calcio", "tennis", "golf")
+
+module.exports = hobbies("calcio", "tennis", "golf")
