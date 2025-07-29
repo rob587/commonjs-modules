@@ -8,7 +8,7 @@ const names = (firstName, lastName) =>{
     }
 }
 
-names("ciccio", "popo")
+names("ciccio", "pasticcio")
 
-module.exports = names("ciccio", "popo")
+module.exports = names("ciccio", "pasticcio")
 
